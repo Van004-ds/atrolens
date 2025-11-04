@@ -1,5 +1,4 @@
 import { useParams, Link } from "react-router-dom";
-import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -25,9 +24,7 @@ const PlanetDetail = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      <section className="pt-24 pb-16">
+      <section className="pt-6 pb-16">
         <div className="container mx-auto px-4">
           <Link to="/">
             <Button variant="ghost" className="mb-8 gap-2">

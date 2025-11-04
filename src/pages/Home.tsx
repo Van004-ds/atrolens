@@ -1,5 +1,4 @@
 import { useState, useMemo } from "react";
-import Navigation from "@/components/Navigation";
 import ExoplanetCard from "@/components/ExoplanetCard";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -32,8 +31,6 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-      
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 overflow-hidden">
         <div 
