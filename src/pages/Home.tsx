@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { exoplanets } from "@/data/exoplanets";
 import { Search, Sparkles } from "lucide-react";
-import cosmicHero from "@/assets/cosmic-hero.jpg";
+import playfulHero from "@/assets/playful-space-hero.jpg";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -34,9 +34,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 overflow-hidden">
         <div 
-          className="absolute inset-0 opacity-20"
+          className="absolute inset-0 opacity-30"
           style={{
-            backgroundImage: `url(${cosmicHero})`,
+            backgroundImage: `url(${playfulHero})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
